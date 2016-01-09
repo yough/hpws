@@ -1,0 +1,15 @@
+
+<!--#include file="check0.asp" -->
+
+<HTML>
+<HEAD>
+<TITLE>后台管理</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gbk">
+<LINK HREF='css/admin.css' REL='stylesheet' TYPE='text/css'>
+</HEAD>
+
+<BODY topmargin="0" rightmargin="0" leftmargin="0">
+<div style="background-color: #639ACE; width: auto;" ><img src="images/title.gif"></div>
+
+</BODY>
+</HTML>

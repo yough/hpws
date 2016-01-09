@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>北京丽德和同咨询有限公司</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--
+var timeout         = 200;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.display = 'none';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.display = 'block';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.display = 'none';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+// -->
+</script>
+</head>
+<body>
+
+<div id="templatemo_body_wrapper">
+	<div id="templatemo_wrapper">
+    
+		<div id="templatemo_header">
+        	<div id="site_title"><h1><a href="#" target="_parent"></a></h1></div>
+        </div>
+        
+        <div id="templatemo_menu">
+            <ul>
+                <li><a href="index.html" onmouseover="mopen('m1')" onmouseout="mclosetime()">首页</a></li>
+                <li style="position:relative;"><a href="chanpin.html" onmouseover="mopen('m2')" onmouseout="mclosetime()">产品与服务</a>
+                	<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" class="cxqnav" >
+                        <a  href="qiyeeap.html">企业EAP</a>
+                        <a  href="xinlipeixun.html">心理培训</a>
+                        <a  href="xinliceping.html">心理测评</a>
+                        <a  href="xinlirexian.html">心理咨询</a>
+                    </div>
+                </li>
+                <li><a href="news.html" onmouseover="mopen('m3')" onmouseout="mclosetime()"class="current">EAP学院</a></li>
+                <li><a href="eap-yingyong.html" onmouseover="mopen('m3')" onmouseout="mclosetime()">EAP应用</a></li>
+                <li><a href="anli.html" onmouseover="mopen('m4')" onmouseout="mclosetime()">成功案例</a></li>
+                <li><a href="about.html" onmouseover="mopen('m5')" onmouseout="mclosetime()">关于我们</a></li>
+            </ul>   	
+        </div> <!-- end of templatemo_menu -->
+        <div class="cleaner"></div>
+        <div id="templatemo_main">
+            
+            <div class="col_w900 hr_divider">
+            
+            	<div class="col_w280 lp_box float_r">
+                    <h2>我们的服务</h2>
+                    <ul class="tmo_list">
+                        <li class="tmo_list01"><span class="fuwujiacu">企业EAP：</span>（Employee Assistance Programs，EAP）。帮助员工及其家庭成员解决心理和行为问题，营造良好气氛，提高管理水平，改善组织绩效。</li>
+                        <li class="tmo_list01"><span class="fuwujiacu">心理测评：</span>
+提供整体员工心理分析报告，帮助管理者了解员工心理现状，为管理决策提供依据。
+</li>
+                        <li class="tmo_list01"><span class="fuwujiacu">心理培训：</span>
+帮助员工掌握保持心理健康的基本方法和技巧；帮助管理者熟悉员工心理管理的方法和技术。
+ </li>
+                        <li class="tmo_list01"><span class="fuwujiacu">心理咨询：</span>
+营造全新环境，帮助员工认识自己与社会，处理各种关系，提高工作效率，改善生活品质，实现自我价值。
+</li>
+                    </ul>    
+                </div>
+                
+                <div class="col_w580 float_l">
+                    <div class="post_box">
+                        <div class="post_box_date">
+                            EAP概念
+                            
+                        </div>
+						
+                        <div class="post_box_content">
+                            <h2>EAP直译为员工帮助计划</h2>
+                            <img src="images/templatemo_image_08.jpg" alt="Image 08" />
+                            <p>EAP（EmployeeAssistanceProgram），直译为员工帮助计划。又称员工心理援助项目、全员心理管理技术。它是由企业为员工设置的一套系统的、长期的福利与支持项目。通过专业人员对组织的诊断、建议和对员工及其直系亲属提供专业指导、培训和咨询，旨在帮助解决员工及其家庭成员的各种心理和行为问题，提高员工在企业中的工作绩效。EAP国际协会主席DonaldG.Jorgensen认为EAP不仅仅是员工的一种福利，同时也是对管理层提供的福利。因为在行为科学的基础上，员工心理援助专家可以为员工和企业提供战略性的心理咨询、确认并解决问题，以创造一个有效、健康的工作环境。通过对员工的辅导，对组织环境的分析，帮助HR处理员工关系的死角，削除可能影响员工绩效的各方面因素，进而增加组织的凝聚力，提升公司形象。它帮助识别员工所关心的问题，并且给予解答，这些问题会影响到员工的工作表现，同时影响到整个组织机构业绩目标的实现。</p>
+                        </div>
+						
+                        <div class="cleaner"></div>
+                    </div>
+					
+                    <div class="post_box">
+                        <div class="post_box_date">
+                            EAP视角的健康
+                            
+                        </div>
+						
+                        <div class="post_box_content">
+                            <h2>心理健康与生理健康同等重要</h2>
+                            <img src="images/templatemo_image_06.jpg" alt="Image 06" />
+                            <p>传统健康的定义是生理系统状态良好；更进一步的理解是：健康不仅是没有疾病和病痛，还包括躯体和生理的完美性以及良好的社会适应性。与“无病即健康”的传统健康观大相径庭，世界卫生组织为健康下了一个新定义：健康不仅是躯体没有疾病，还要具备心理健康、社会适应良好和有道德。因此，现代人的健康内容包括：躯体健康、心理健康、心灵健康、社会健康、智力健康、道德健康、环境健康等。健康是人的基本权利，是人生最宝贵的财富之一；健康是生活质量的基础；健康是人类自我觉醒的重要方面；健康是生命存在的最佳状态，有着丰富深蕴的内涵。健康的定义在EAP的诠释下是生理、心理及社会适应三个方面全部良好的一种状况。</p>
+                        </div>
+						
+                        <div class="cleaner"></div>
+                    </div>
+					
+                </div>
+                
+                <div class="cleaner"></div>
+            </div>
+            
+            
+            
+        </div> <!-- end of templatemo main -->
+    	
+    </div>
+</div>
+
+<div id="templatemo_footer_wrapper">
+    <div id="templatemo_footer">
+    	
+		<a href="index.html">首页</a> | <a href="chanpin.html">产品与服务</a> | <a href="news.html">EAP学院</a> | <a href="eap-yingyong.html">EAP应用</a>| <a href="anli.html">成功案例</a> | <a href="about.html" class="last">联系我们</a> <br /><br />
+        
+        Copyright © 2012 北京丽德和同咨询有限公司| <a href="#" target="">京ICP备12030539 </a>  <a href="#" target="_parent"></a>
+    
+    </div> <!-- end of templatemo_footer -->
+</div>
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div></body>
+</html>

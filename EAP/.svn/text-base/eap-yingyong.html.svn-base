@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>北京丽德和同咨询有限公司</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" />    
+<!-- Arquivos utilizados pelo jQuery lightBox plugin -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+<!-- / fim dos arquivos utilizados pelo jQuery lightBox plugin -->
+
+<!-- Ativando o jQuery lightBox plugin -->
+<script type="text/javascript">
+$(function() {
+    $('#map a').lightBox();
+});
+</script>
+<script type="text/javascript">
+<!--
+var timeout         = 200;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.display = 'none';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.display = 'block';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.display = 'none';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+// -->
+</script>
+</head>
+<body>
+
+<div id="templatemo_body_wrapper">
+	<div id="templatemo_wrapper">
+    
+		<div id="templatemo_header">
+        	<div id="site_title"><h1><a href="#" target="_parent"></a></h1></div>
+        </div>
+        
+        <div id="templatemo_menu">
+            <ul>
+                <li><a href="index.html" onmouseover="mopen('m1')" onmouseout="mclosetime()">首页</a></li>
+                <li style="position:relative;"><a href="chanpin.html" onmouseover="mopen('m2')" onmouseout="mclosetime()">产品与服务</a>
+                	<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" class="cxqnav" >
+                        <a  href="qiyeeap.html">企业EAP</a>
+                        <a  href="xinlipeixun.html">心理培训</a>
+                        <a  href="xinliceping.html">心理测评</a>
+                        <a  href="xinlirexian.html">心理咨询</a>
+                    </div>
+                </li>
+                <li><a href="news.html" onmouseover="mopen('m3')" onmouseout="mclosetime()">EAP学院</a></li>
+                <li><a href="eap-yingyong.html" onmouseover="mopen('m3')" onmouseout="mclosetime()" class="current">EAP应用</a></li>
+                <li><a href="anli.html" onmouseover="mopen('m4')" onmouseout="mclosetime()">成功案例</a></li>
+                <li><a href="about.html" onmouseover="mopen('m5')" onmouseout="mclosetime()">关于我们</a></li>
+            </ul>    	
+        </div> <!-- end of templatemo_menu -->
+        <div class="cleaner"></div>
+        <div id="templatemo_main">
+        	<div class="col_w901 ">
+            	<h2>EAP 应用</h2> 
+                <p style="margin-bottom:25px;">EAP起始于上个世纪50年代，最初的对象是二战老兵。直到上个世纪70年代，它才被应用于企业。经过20年的发展，EAP已经从最初的矫正酗酒者和滥用药物者的行为发展到现在对个人心理问题的全面帮助。如今，EAP已发展成为多维度的、深入员工心理世界的企业管理手段，越来越广泛、深入地与企业的人力资源管理联系起来。据统计，在美国有四分之一以上的企业员工常年享受着EAP服务，大多数员工人数超过500人的企业目前已建立了EAP项目，员工人数在100－490的企业70%以上也有EAP，并且这个数字正在不断增加。到20世纪90年代末，《财富》500强中，大约有90%以上的企业建立了EAP项目；2010年，这一数字是100%。</br></span>
+企业EAP服务在中国的发展现状: EAP服务在上个世界七八十年代就被引入了香港和台湾地区，上世纪末期被引入内地（大陆），主要是一些外资企业和港台企业。与此同时，一些EAP服务的供应商开始进入北京、上海、广州等地，设立办事处。国内现有的EAP服务大多数还是延用国外的模式。</br></span>
+直到2001年3月，第一个完整意义上的EAP项目才落户内地（大陆）企业：联想客服部门的EAP。该项目拥有良好的反馈机制，定期将培训、咨询中发现的与组织管理相关的问题反馈给企业，以帮助改进管理。该项目在管理者和员工中引起了相当大的反响，在EAP中国化的发展过程中具有极其重要的意义，它作为内地（大陆）企业进行的第一次EAP实践，为以后EAP项目的落实提供了完整的参考模式，为后来EAP项目在中国的发展开了历史先河。从此，国有企业、政府机构、军队和一些其他企业也慢慢开始重视EAP服务，关注员工的健康对组织发展的影响，并开始接受和使用EAP服务。
+</br></span>如今日本企业在应用EAP时创造了一种被称为“爱抚管理”的模式。一些企业设置了放松室、发泄室、茶室等，来缓解员工的紧张情绪；或者制订员工健康修改计划和增进健康的方案，帮助员工克服身心方面的疾病和提高健康程度；还有的是设置一系列课程进行例行健康检查，进行心理卫生的自律训练、性格分析和心理检查等。EAP对所有公司都有作用，企业在任何时候都需要EAP，关键的问题在于公司要持续地关注员工细微地变化，在企业危机发生之前将可能引起大坝崩溃的暗洞堵上。正如诺基亚中国有限公司为这个项目取的一个特殊名字――“LiveLifeAssist”一样，它是员工生活的助手，这种助手的作用不仅反映在对员工提供的帮助，同时也体现在对公司带来的益处。而对某些特殊行业和企业特殊的部门，EAP尤其能显现其价值。
+</p>
+            </div>
+        	
+            <div class="col_w900">
+            
+            	<div class="col_w422 float_l">
+                  	<a href="qiye eap.html"><img src="images/yingyong-01.jpg" /></a>
+                    <a href="xinliceping.html"><img src="images/yingyong-02.jpg" /></a>
+                    <a href="xinlipeixun.html"><img src="images/yingyong-03.jpg" /></a>
+                </div>
+                
+                <div class="col_w421 float_r">
+                    <ul class="tmo_list">
+                        <li class="tmo_05 "><span class="fuwujiacu">1.对安全有特殊要求的行业</br></span>对安全有特殊要求的行业(比如煤矿、石油行业、核电站、化工行业等)，员工的任何动态都需要密切关注，因为他们工作中的任何差错将导致整个公司乃至周围环境的灾难。对这些人员的心理健康的关注，包括帮助他们解决来自家庭的后顾之忧等，成了这类公司人力资源部头等大事。他们对EAP会有更大的兴趣。</li>
+                        
+                        <li class="tmo_06"><span class="fuwujiacu">2．航空业、远洋业等行业</br></span>
+由于行业的特殊性，要求飞行员、船员有过硬的心理素质。同样，同在高空飞行、远洋跋涉且直接为乘客服务的空姐、海嫂的心理素质也一样重要。他们不仅要感受作为一个普通人在不着陆的密封空间中产生的不安全感，而且要承担作为服务人员在面对客人时可能遇到的各种怨气，更要处理在危急情况下的各种突发情景。所以，这种类型的工作对个人的心理素质有着很高的要求。一方面，他们必须对自身的工作有清晰的认识，有方法排解不安全感。另一方面，他们在处理与客人关系的时候，也必须有着良好的心态，有着正确释放压力的方法。最重要的是，在面对危机的时候，这些人的心理素质和能否处理好突发事件，更是关系到了成千上万人的生命。
+</li>
+                        <li class="tmo_07"><span class="fuwujiacu">3．服务行业或企业客服部门</br></span>
+对那些直接面对客户的工作来说，一个最重要的原则是怎样让客户满意。但现实中时常会有做客服的员工抱怨工作要求他们时刻把微笑带给客人，客人永远是正确的等。可有时候客人的要求很无礼，甚至就是来找茬的。
+这样的工作需要员工对自己的工作有一个非常好的理解或认识，有豁达的心胸，具有非常的耐心和控制力等，但同时也需要向他们提供一个很好的释放压力的途径和方法。正是基于这些考虑．联想客户服务中心尝试用EAP项目来帮助客服部门的员工处理各种来自工作的中的压力和困惑，帮助他们排解心中的怨气，同时通过培训来加速他们的自我成长和发展。
+
+ </li>
+                       
+                    </ul>
+                </div>
+                
+                <div class="cleaner"></div>
+                <!--<div class="col_w420 float_r" id="map">
+                    <h3>Map</h3>
+                    <a href="images/map_big.jpg" title="">
+                        <img src="images/map_thumb.jpg" alt="Map" />
+                    </a>
+    
+                    <div class="cleaner h30"></div>
+                                    
+                    <h3>Mailing Address</h3>
+                    <h6>Company Name</h6>
+                    330-660 Duis lacinia dictum, <br />
+                    PVestibulum auctor, 21460<br />
+                    Diam a mollis tempor<br /><br />
+					
+                    Tel: 030-020-6600<br />
+					Fax: 030-020-5500<br />
+					
+                </div>
+                <div class="cleaner"></div>-->
+            </div>
+        </div> <!-- end of templatemo main -->
+    	
+    </div>
+</div>
+
+<div id="templatemo_footer_wrapper">
+    <div id="templatemo_footer">
+    	
+		<a href="index.html">首页</a> | <a href="chanpin.html">产品与服务</a> | <a href="news.html">EAP学院</a> | <a href="eap-yingyong.html">EAP应用</a>| <a href="anli.html">成功案例</a> | <a href="about.html" class="last">联系我们</a> <br /><br />
+        
+        Copyright © 2012 北京丽德和同咨询有限公司| <a href="#" target="">京ICP备12030539 </a>  <a href="#" target="_parent"></a>
+    
+    </div> <!-- end of templatemo_footer -->
+</div>
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div></body>
+</html>

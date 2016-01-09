@@ -1,0 +1,138 @@
+/*
+	??:????:???
+	??:??
+	??:2005-04-13
+	??:
+*/
+
+/*link*/
+a:visited
+{
+	text-decoration:none;
+	color:#215dc6;
+}
+a:link
+{
+	text-decoration:none;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+
+/*td*/
+td.left_menu1_over
+{
+	cursor:hand;
+	height:25;
+}
+td.left_menu1_out
+{
+	height:25;
+}
+td.left_menu2
+{
+	border-right: white 1px solid; 
+	background: #d6dff7; 
+	overflow: hidden; 
+	border-left: white 1px solid; 
+	border-bottom: white 1px solid;
+}
+td.left_menu2_td
+{
+	font-size:12px;
+	height:20;
+}
+td.right_top
+{	
+	font-size:12px;
+	font-weight:bold;
+	background-image:url('../images/table_title.gif');
+}
+td.right_tabletop
+{
+	font-size:12px;
+	font-weight:bold;
+	color:#ffffff;
+	background-color:#639ACE;
+	text-align:center;
+}
+td.right_table1
+{
+	font-size:12px;
+	background-color: ecf5ff;
+}
+td.right_table2
+{
+	font-size:12px;
+	background-color:#ffffff;
+}
+
+/*text*/
+.text1
+{
+	font-size:12px;
+	font-weight:bold;
+}
+.text2
+{
+	font-size:12px;
+	color:#ff0000
+}
+.text3
+{
+	font-size:12px;
+	font-weight:bold;
+	color:#215dc6;
+}
+.text4
+{
+	color:#000000;
+}
+
+div,form,p,td,body
+{
+	font-size:9pt;
+}
+
+/*backgound*/
+.left_background
+{
+	margin:0px;
+	background: #639ACE; 
+}
+
+.mid_background
+{
+	background-color: a4b6d7;
+}
+
+.table_background
+{
+	background-color:a4b6d7;
+}
+
+/*body*/
+.body
+{
+	margin:0px;
+}
+
+/*span*/
+.span_screenchange 
+{
+	color: white; 
+	cursor: hand; 
+	font-family: webdings; 
+	font-size: 9pt;
+}
+
+/*div*/
+.div_leftmenu1
+{
+	font-weight: bold; 
+	left: 8px; 
+	color: #215dc6; 
+	position: relative; 
+	top: 2px;
+}

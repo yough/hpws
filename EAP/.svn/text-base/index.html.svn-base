@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>北京丽德和同咨询有限公司</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--
+var timeout         = 200;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.display = 'none';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.display = 'block';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.display = 'none';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+// -->
+</script>
+
+</head>
+<body>
+<div id="templatemo_body_wrapper">
+	<div id="templatemo_wrapper">
+    
+		<div id="templatemo_header">
+        	<div id="site_title"><h1><a href="#" target="_parent"></a></h1></div>
+            <div class="logo">
+           	  <form id="form1" name="form1" method="post" action="">
+            	 
+           	      
+           	  </form>
+            </div>
+      </div>
+        
+        <div id="templatemo_menu">
+            <ul>
+                <li><a href="index.html" onmouseover="mopen('m1')" onmouseout="mclosetime()"class="current">首页</a></li>
+                <li style="position:relative;"><a href="chanpin.html" onmouseover="mopen('m2')" onmouseout="mclosetime()">产品与服务</a>
+                	<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" class="cxqnav" >
+                        <a  href="qiyeeap.html">企业EAP</a>
+                        <a  href="xinlipeixun.html">心理培训</a>
+                        <a  href="xinliceping.html">心理测评</a>
+                        <a  href="xinlirexian.html">心理咨询</a>
+                    </div>
+                </li>
+                <li><a href="news.html" onmouseover="mopen('m3')" onmouseout="mclosetime()">EAP学院</a></li>
+                <li><a href="eap-yingyong.html" onmouseover="mopen('m3')" onmouseout="mclosetime()">EAP应用</a></li>
+                <li><a href="anli.html" onmouseover="mopen('m4')" onmouseout="mclosetime()">成功案例</a></li>
+                <li><a href="about.html" onmouseover="mopen('m5')" onmouseout="mclosetime()">关于我们</a></li>
+            </ul>    	
+        </div> <!-- end of templatemo_menu -->
+        <div class="cleaner"></div>
+        <div id="templatemo_main">
+        	<div class="col_w90001 hr_divider">
+			
+              	<div class="col_allw280 frontpage_box">
+                   <a href="qiye eap.html" ><img src="images/templatemo_bc_blue.png" alt="Image" /></a>
+                    <a href="qiye eap.html" ><h2>企业EAP</h2></a>
+                    <span class="tagline">员工的High气=企业的锐气</span>
+                    <p>帮助员工及其家庭成员解决心理和行为问题，营造良好气氛，提高管理水平，改善组织绩效...</p>
+                  <a class="more" href="qiye eap.html">更多>></a>
+                </div>
+				
+                <div class="col_allw280 frontpage_box">
+                   <a href="xinlipeixun.html"> <img src="images/templatemo_bc_green.png" alt="Image" /></a>
+                     <a href="xinlipeixun.html"><h2>心理培训</h2></a>
+                    <span class="tagline">帮助管理者熟悉员工心理的技术</span>
+                    <p>帮助员工掌握保持心理健康的基本方法和技巧；帮助管理者熟悉员工心理管理的方法和技术...
+
+</p>
+                    <a class="more" href="xinlipeixun.html">更多>></a>
+                </div>
+				
+                <div class="col_allw280 frontpage_box col_last">
+                   <a href="xinliceping.html" ><img src="images/templatemo_bc_orange.png" alt="Image" /> </a>           
+                 <a href="xinliceping.html" > <h2 class="cepingtitle">心理测评</h2></a><a href="csc.buct.edu.cn/login.aspx" class="xlcpjinru">进入</a>
+                    <span class="xlcptext">帮助管理者了解员工心理现状</span>
+                  <p class="xlcpneirong">提供整体员工心理分析报告，帮助管理者了解员工心理现状，为管理决策提供依据..</p>
+                    <a class="more" href="xinliceping.html">更多>></a>
+                </div>
+				
+                <div class="cleaner"></div>
+            </div>
+            
+            <div class="col_w900 hr_divider">
+            
+            	<div class="col_w420 lp_box float_l">
+                    <h2>成功案例</h2>
+              <ul class="lp_frontpage">
+                        <li><a href="anli.html"><img width="200" height="100" src="images/templatemo_image_01.jpg" alt="Image 01" /></a></li>
+                        <li><a href="anli.html"><img width="200" height="100" src="images/templatemo_image_02.jpg" alt="Image 02" /></a></li>
+                        <li><a href="anli.html"><img width="200" height="100" src="images/templatemo_image_03.jpg" alt="Image 03" /></a></li>
+                        <li><a href="anli.html"><img width="200" height="100" src="images/templatemo_image_04.jpg" alt="Image 04" /></a></li>
+                    </ul>    
+                </div>
+                
+                <div class="col_w420 float_r">
+                    <h2>EAP学院</h2>
+                    <div class="lbe_box">
+                        <div class="lbe_date">
+                            EAP概念
+                            
+                        </div>
+						
+                        <div class="lbe_content">
+                            <h3><a href="news.html">EAP直译为员工帮助计划。</a></h3>
+                            <p>由企业为员工提供的系统而长期的福利与支持项目。由专业人员对员工及其直系亲属提供专业测评、培训和咨询，帮助他们解决各种心理和行为问题，提高员工的工作绩效，提高企业的经营业绩。</p>
+                        </div>
+						
+                        <div class="cleaner"></div>
+                    </div>
+                    <div class="lbe_box">
+                        <div class="lbe_date">
+                            EAP视角的健康
+                            
+                        </div>
+						
+                        <div class="lbe_content">
+                            <h3><a href="news.html">心理健康与生理健康同等重要。</a></h3>
+                            <p>与“无病即健康”的传统健康观大相径庭，世界卫生组织为健康下了一个新定义：健康不仅是躯体没有疾病，还要具备心理健康、社会适应良好和有道德。因此，现代人的健康内容包括：躯体健康、心理健康、心灵健康、社会健康、智力健康、道德健康、环境健康等。</p>
+                        </div>
+						
+                        <div class="cleaner"></div>
+                    </div>
+                </div>
+                
+                <div class="cleaner"></div>
+            </div>
+            
+            
+        </div> <!-- end of templatemo main -->
+    	
+    </div>
+</div>
+
+<div id="templatemo_footer_wrapper">
+    <div id="templatemo_footer">
+    	
+		<a href="index.html">首页</a> | <a href="chanpin.html">产品与服务</a> | <a href="news.html">EAP学院</a>| <a href="eap-yingyong.html">EAP应用</a> | <a href="anli.html">成功案例</a> | <a href="about.html" class="last">联系我们</a> <br /><br />
+        
+        Copyright © 2012 北京丽德和同咨询有限公司| <a href="#" target="">京ICP备12030539 </a>  <a href="#" target="_parent"></a>
+    
+    </div> <!-- end of templatemo_footer -->
+</div>
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div></body>
+</html>

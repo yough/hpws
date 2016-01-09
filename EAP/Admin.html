@@ -1,0 +1,53 @@
+
+<HTML>
+<HEAD>
+<TITLE>北京丽德和同咨询有限公司心理健康测评系统</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gbk">
+<LINK HREF='css/admin.css' REL='stylesheet' TYPE='text/css'>
+</HEAD>
+
+<BODY class="body" scroll=no>
+<TABLE border="0" cellPadding="0" cellSpacing="0" height="100%" width="100%">
+  <TR>
+  <TD rowspan="2" align="middle" vAlign="center" noWrap id="frmTitle">
+   <IFRAME frameBorder="0" id="carnoc" name="carnoc" scrolling="no" src="left.html" style="HEIGHT: 100%; VISIBILITY: inherit; WIDTH: 170px; Z-INDEX: 2"></IFRAME>
+  </TD>
+  <TD rowspan="2" class="mid_background" style="WIDTH: 9pt">
+	<TABLE border="0" cellPadding="0" cellSpacing="0" height="100%">
+      <TR>
+        <TD style="HEIGHT: 100%" onclick="switchSysBar()">
+        <SPAN class="span_screenchange" id="switchPoint" title="屏幕切换">3</SPAN>
+		</TD>
+      </TR>
+    </TABLE>
+  </TD>
+  <TD height="75" style="WIDTH: 100%">
+	<IFRAME frameBorder="0" id="top" name="top" scrolling="no" src="top.html" style="HEIGHT: 100%; VISIBILITY: inherit; WIDTH: 100%; Z-INDEX: 1"></IFRAME>
+  </TD>
+  </TR>
+  <TR>
+  <TD style="WIDTH: 100%">    
+	<IFRAME frameBorder="0" id="main" name="main" scrolling="yes" src="Introduction.aspx" style="HEIGHT: 100%; VISIBILITY: inherit; WIDTH: 100%; Z-INDEX: 1"></IFRAME>
+  </TD>
+  </TR>
+</TABLE>
+</BODY>
+</HTML>
+
+<script>
+function switchSysBar()
+{
+	if (switchPoint.innerText==3)
+	{
+		switchPoint.innerText=4
+		document.all("frmTitle").style.display="none"
+	}
+	else
+	{
+		switchPoint.innerText=3
+		document.all("frmTitle").style.display=""
+	}
+}
+
+if(window.screen.width<'1024'){switchSysBar()}
+</script>

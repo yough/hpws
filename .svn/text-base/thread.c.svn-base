@@ -1,0 +1,86 @@
+#include"common.h"
+#include<iostream>
+
+void* worker(void* param)
+{
+	args *p=(args*) param; int port;
+	int cfd=p->cfd; int efd=p->efd;
+	char buf[512]; char path[MAX_LINE];
+	
+	pthread_t tid=pthread_self();
+	printf("\nThread ID: %lu, Sock FD: %d, epoll ID: %d\n", tid, cfd, efd);
+
+	while(1)
+	{
+		ssize_t count;
+		count=read(cfd, buf, sizeof(buf));
+		if(count==-1)
+		{
+			/* If errno==EAGAIN, that means we have read all data.
+			 * So go back to the main loop. */	
+			if(errno!=EAGAIN)
+			{
+				reset_oneshot(efd, cfd);
+				close(cfd);
+				perror("read");
+			}
+			close(cfd);
+			break;
+		}
+		else if(count==0)
+		{
+			/* End of file. The remote has closed the connection. */
+			close(cfd);
+			break;
+		}
+		else
+		{
+			configuration(&port, path); 
+			if(parse(buf, path)==-1)
+			{
+				print("error during geting filepaht.\n");
+				close(cfd);
+				break;
+			}
+			print("%s\n", path);
+			struct stat statbuf;
+			if(stat(path, &statbuf)==-1)
+			{
+				print("stat: %s\n", strerror(errno));
+				close(cfd);
+				break;
+			}
+
+			if(!S_ISREG(statbuf.st_mode))
+			{
+				if(error_page(cfd)==-1)
+				{
+					print("error during writing error_page\n");
+				}
+				close(cfd);
+				break;
+			}
+
+			int	fd=open(path, O_RDONLY);
+			if(fd==-1)
+			{
+				if(error_page(cfd)==-1)
+				{
+					print("error during writing error_page\n");
+				}
+				close(fd);
+				close(cfd);
+				break;
+			}
+
+			if(write_page(cfd, fd, path)==-1)
+			{
+				print("error during writing page\n");
+				close(fd);
+				close(cfd);
+				break;
+			}
+			close(fd);
+		}
+	}
+}

@@ -1,0 +1,2 @@
+#!/bin/sh
+g++ main.c init.c log.c  write.c error.c parse.c conf.c  poll.c thread.c print.c  -o ws -lpthread 

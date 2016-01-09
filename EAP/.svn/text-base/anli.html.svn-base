@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>北京丽德和同咨询有限公司</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+
+
+<!-- Ativando o jQuery lightBox plugin -->
+<script type="text/javascript">
+$(function() {
+    $('.lightbox').lightBox();
+});
+</script>
+<script type="text/javascript">
+<!--
+var timeout         = 200;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.display = 'none';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.display = 'block';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.display = 'none';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+// -->
+</script>
+</head>
+<body>
+
+<div id="templatemo_body_wrapper">
+	<div id="templatemo_wrapper">
+    
+		<div id="templatemo_header">
+        	<div id="site_title"><h1><a href="#" target="_parent"></a></h1></div>
+        </div>
+        
+        <div id="templatemo_menu">
+            <ul>
+                <li><a href="index.html" onmouseover="mopen('m1')" onmouseout="mclosetime()">首页</a></li>
+                <li style="position:relative;"><a href="chanpin.html" onmouseover="mopen('m2')" onmouseout="mclosetime()">产品与服务</a>
+                	<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" class="cxqnav" >
+                        <a  href="qiyeeap.html">企业EAP</a>
+                        <a  href="xinlipeixun.html">心理培训</a>
+                        <a  href="xinliceping.html">心理测评</a>
+                        <a  href="xinlirexian.html">心理咨询</a>
+                    </div>
+                </li>
+                <li><a href="news.html" onmouseover="mopen('m3')" onmouseout="mclosetime()">EAP学院</a></li>
+                <li><a href="eap-yingyong.html" onmouseover="mopen('m3')" onmouseout="mclosetime()">EAP应用</a></li>
+                <li><a href="anli.html" onmouseover="mopen('m4')" onmouseout="mclosetime()"class="current">成功案例</a></li>
+                <li><a href="about.html" onmouseover="mopen('m5')" onmouseout="mclosetime()">关于我们</a></li>
+            </ul>      	
+        </div> <!-- end of templatemo_menu -->
+        <div class="cleaner"></div>
+        <div id="templatemo_main">
+        	
+            <div class="col_w900 ">
+           		<h2>成功案例</h2>
+        		
+            
+            </div>
+        	
+            <div class="col_w900 ">
+            
+            	<div id="gallery">
+                    <div class="gallery_box ">
+					
+                      <img src="images/gallery/image_01_s.jpg" alt="Image 01" />
+                      <h3>某大型制造企业</h3>
+                        <p class="anli_jianju"><span class="anlijiacu">项目背景：</span>该企业是一家以家电业为主，涉足物流等领域的大型综合性现代化企业集团。</p></br>
+
+<p><span class="anlijiacu">面临问题：</span>企业人员众多，高层无法准确把握员工心态，政策落实不理想；企业文化渗透力不强，员工归属感差；员工安于现状，企业发展进入瓶颈期。</p></br>
+
+<p><span class="anlijiacu">项目实施：</span>EAP整体规划；	      企业员工心理健康体检；	      企业组织幸福状态分析；	      部门个性问题诊断及建议；	      员工心理健康关怀；	      企业文化塑造；</p></br> 
+<p><span class="anlijiacu">实施效果：</span>员工整体满意度达到96%；企业生产效率提高15%；企业利润增长11% （综合因素）</p></br> 
+
+						
+                        <div class="cleaner"></div>
+                  	</div>
+				  
+                    <div class="gallery_box01 jianju02">
+                    	
+                        <img src="images/gallery/image_04_s.jpg" alt="Image 02" />
+
+                        <h3>某大型互联网公司</h3>
+                        <p><span class="anlijiacu">项目背景：</span>该电子商务公司一直保持高速成长，连续六年增长率均超过200%。该公司目前拥有遍及全国各地2000万注册用户，近6000家供应商。</p></br>
+
+<p><span class="anlijiacu">面临问题：</span>企业员工感到日常工作压力过大；员工满意度不高；员工流失率大。</p></br>
+
+<p><span class="anlijiacu">项目实施：</span>EAP整体规划；	      企业员工心理健康体检；	      员工压力源分析与诊断	      幸福员工团队培训	      日常心理减压咨询</p> </br>
+<p><span class="anlijiacu">实施效果：</span>员工流失率下降7%；招聘成本减少25万；</p></br>
+						
+                        <div class="cleaner"></div>
+                    </div>
+					
+                 	
+                  	</div>
+					
+	            	<div class="cleaner"></div>
+           		</div>
+                
+                <div class="cleaner"></div>
+            </div>
+            
+            
+            
+        </div> <!-- end of templatemo main -->
+    	
+    </div>
+</div>
+
+<div id="templatemo_footer_wrapper">
+    <div id="templatemo_footer">
+    	
+		<a href="index.html">首页</a> | <a href="chanpin.html">产品与服务</a> | <a href="news.html">EAP学院</a>| <a href="eap-yingyong.html">EAP应用</a> | <a href="anli.html">成功案例</a> | <a href="about.html" class="last">联系我们</a> <br /><br />
+        
+        Copyright © 2012 北京丽德和同咨询有限公司| <a href="#" target="">京ICP备12030539 </a>  <a href="#" target="_parent"></a>
+    
+    </div> <!-- end of templatemo_footer -->
+</div>
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div></body>
+</html>

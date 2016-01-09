@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>北京丽德和同咨询有限公司</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" />    
+<!-- Arquivos utilizados pelo jQuery lightBox plugin -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+<!-- / fim dos arquivos utilizados pelo jQuery lightBox plugin -->
+
+<!-- Ativando o jQuery lightBox plugin -->
+<script type="text/javascript">
+$(function() {
+    $('#map a').lightBox();
+});
+</script>
+<script type="text/javascript">
+<!--
+var timeout         = 200;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.display = 'none';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.display = 'block';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.display = 'none';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+// -->
+</script>
+</head>
+<body>
+
+<div id="templatemo_body_wrapper">
+	<div id="templatemo_wrapper">
+    
+		<div id="templatemo_header">
+        	<div id="site_title"><h1><a href="#" target="_parent"></a></h1></div>
+        </div>
+        
+        <div id="templatemo_menu">
+            <ul>
+                <li><a href="index.html" onmouseover="mopen('m1')" onmouseout="mclosetime()">首页</a></li>
+                <li style="position:relative;"><a href="chanpin.html" onmouseover="mopen('m2')" onmouseout="mclosetime()"class="current">产品与服务</a>
+                	<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" class="cxqnav" >
+                        <a  href="qiyeeap.html">企业EAP</a>
+                        <a  href="xinlipeixun.html">心理培训</a>
+                        <a  href="xinliceping.html">心理测评</a>
+                        <a  href="xinlirexian.html">心理咨询</a>
+                    </div>
+                </li>
+                <li><a href="news.html" onmouseover="mopen('m3')" onmouseout="mclosetime()">EAP学院</a></li>
+                <li><a href="eap-yingyong.html" onmouseover="mopen('m3')" onmouseout="mclosetime()">EAP应用</a></li>
+                <li><a href="anli.html" onmouseover="mopen('m4')" onmouseout="mclosetime()">成功案例</a></li>
+                <li><a href="about.html" onmouseover="mopen('m5')" onmouseout="mclosetime()">关于我们</a></li>
+            </ul>    	
+        </div> <!-- end of templatemo_menu -->
+        <div class="cleaner"></div>
+        <div id="templatemo_main">
+        	<div class="col_w900 ">
+			
+            	<h2>企业EAP</h2>
+		        <p>企业EAP（Employee Assistance Programs，EAP）。是企业为员工提供的系统而长期的福利与支持项目。由专业人员对员工及其直系亲属提供专业测评、培训和咨询，帮助他们解决各种心理和行为问题，提高员工的工作绩效，提高企业的经营业绩。简而言之，企业EAP是企业用于管理和解决员工个人问题，从而提高员工与企业绩效的有效机制。</p></br>
+                <img src="images/qiyeeap-pic.jpg" />
+                <div class="qyeap-text">
+                    <p><span class="anlijiacu">企业EAP能同时为组织、员工、管理者三个层面提供切实有效的帮助，一般包括以下服务模块：</span></p>
+                    
+                    <p ><span class="anlijiacu">心理测评：</span>针对员工心理健康状况、心理压力水平、组织状况通过多种方式进行测评调查，深入分析目前状况的各种影响因素，提供整体员工分析报告和解决建议，帮助管理者了解员工心理现状，为管理决策提供依据。</p>
+                    <p><span class="anlijiacu">个体测评：</span>为管理者和员工提供个体心理测评服务，对个体职业心理健康进行综合评估，出具个体心理测评报告，帮助个体了解自我的职业心理健康状况及需改善的方面。</p>
+                    <p><span class="anlijiacu">宣传策划：</span>定期以电子期刊、彩信、海报、视频短片等形式，提供员工关注的身心健康、法律等各种专业知识。鼓励员工遇到心理困惑时积极寻求帮助。 </p>
+                    <p><span class="anlijiacu">团体辅导：</span>让面临共同问题的员工组成一个小组，由受过专业训练的团体主持人，协助团队成员形成团体的共识和目标，建立正确的认知观念和健康的态度，学习解决问题的方法和技巧。</p>
+		    <p><span class="anlijiacu">24小时心理咨询热线：</span>真正意义上的7×24小时的咨询热线，热线电话<a href="#">4006096055</a>，由专业的心理咨询师值班，接听此热线。以方便快捷的方式随时满足员工的咨询需求，以便及时有效地帮助员工解决心理困扰，提升心理品质。</p>
+                    <p><span class="anlijiacu">个体面询：</span>在约定的时间里，员工在专业咨询师的咨询室或签约咨询师的咨询室接受面询服务，每次面对面咨询50-60分钟。</p>
+                    <p><span class="anlijiacu">危机干预：</span>当出现自杀、工作场所暴力、组织变革等紧急、重大事件时，24小时提供危机干预服务，帮助面对危机的员工个人和组织共同渡过难关。</p>
+                    <p><span class="anlijiacu">心理培训：</span>对员工常见的工作生活困扰，为员工进行专题讲座，内容包括心理健康、员工职业规划、情绪管理、压力管理、工作与生活平衡等相关内容。</p>
+                    <p><span class="anlijiacu">法律顾问：</span>为客户员工解答生活中遇到的各种法律困惑。</p>
+                    <p><span class="anlijiacu">企业EAP规划：</span>针对企业的行业特点和企业自身的情况，帮助企业量身分阶段逐步进行EAP系统的规划和设计。</p></br>
+                </div>
+            </div>
+        	
+           
+        </div> <!-- end of templatemo main -->
+    	
+    </div>
+</div>
+
+<div id="templatemo_footer_wrapper">
+    <div id="templatemo_footer">
+    	
+		<a href="index.html">首页</a> | <a href="chanpin.html">产品与服务</a> | <a href="news.html">EAP学院</a> | <a href="eap-yingyong.html">EAP应用</a>| <a href="anli.html">成功案例</a> | <a href="about.html" class="last">联系我们</a> <br /><br />
+        
+        Copyright © 2012 北京丽德和同咨询有限公司| <a href="#" target="">京ICP备12030539 </a>  <a href="#" target="_parent"></a>
+    
+    </div> <!-- end of templatemo_footer -->
+</div>
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div></body>
+</html>

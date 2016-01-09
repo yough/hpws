@@ -1,0 +1,119 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gbk">
+<LINK HREF='css/admin.css' REL='stylesheet' TYPE='text/css'>
+</HEAD>
+
+
+<BODY class="left_background">
+	<BR>
+	<TABLE cellspacing="0" cellpadding="0" width="145" align="center">
+		<TR><TD><img height="26" src="images/logo.gif" width="145"></TD></TR>
+		<TR><TD class="left_menu1_out" onMouseOver="this.className='left_menu1_over';" onMouseOut="this.className='left_menu1_out';" background="images/quit.gif"><DIV class="div_leftmenu1">
+		| <a target="_top" href="Register.aspx">返回</a></DIV></TD>
+		</TR>
+	</TABLE>
+	<BR>
+	<TABLE cellspacing="0" cellpadding="0" width="145" align="center">
+		<TR><TD background="images/baseinfo.gif" class="left_menu1_out" onClick="showsubmenu(1)" onMouseOver="this.className='left_menu1_over';" onMouseOut="this.className='left_menu1_out';"><DIV class="div_leftmenu1">
+            问卷数据维护</DIV></TD></TR>
+		<TR>
+		  <TD id="submenu1" style="DISPLAY:" class="left_menu2">
+				<TABLE cellspacing="0" cellpadding="0" width="135" align="center">					
+					<TR>
+						<TD class="left_menu2_td"><a target="main" href="basicinfoadd.aspx">基本信息添加</a></TD>
+					</TR>
+					<TR>
+						<TD class="left_menu2_td"><a target="main" href="basicinfoedit.aspx">基本信息维护</a></TD>
+					</TR>
+					<TR>
+						<TD class="left_menu2_td"><a target="main" href="QuestionAdd.aspx">试题数据添加</a></TD>
+					</TR>	
+					<TR>
+						<TD class="left_menu2_td"><a target="main" href="QuestionEdit.aspx">试题数据维护</a></TD>
+					</TR>					
+				</TABLE>
+		  </TD>
+		  
+		</TR>
+		<TR><TD class="left_menu1_out" onMouseOver="this.className='left_menu1_over';" onClick="showsubmenu(2)" onMouseOut="this.className='left_menu1_out';" background="images/assistant.gif" ><DIV class="div_leftmenu1">
+            测试结果分析</DIV></TD></TR>
+		<TR>
+		  <TD id="submenu2" style="DISPLAY:" class="left_menu2">
+				<TABLE cellspacing="0" cellpadding="0" width="135" align="center">				
+                   <TR>
+						<TD class="left_menu2_td"><a target="main" href="StandardAdd.aspx">分析标准添加</a></TD>
+					</TR>				
+                    <TR>
+						<TD class="left_menu2_td"><a target="main" href="SuggestAdd.aspx">分析建议添加</a></TD>
+					</TR>				
+
+					<TR>
+						<TD class="left_menu2_td"><a target="main" href="StandardManage.aspx">分析标准管理</a></TD>
+					</TR>				
+                    <TR>
+						<TD class="left_menu2_td"><a target="main" href="SuggestManage.aspx">分析建议管理</a></TD>
+					</TR>	
+					<TR>
+						<TD class="left_menu2_td"><a target="main" href="report.aspx">分析结果</a></TD>
+					</TR>
+					<TR>
+						<TD class="left_menu2_td"><a target="main" href="TotalReport.aspx">团体报告</a></TD>
+					</TR>				
+				</TABLE>
+		  </TD>
+		</TR>
+	
+	<TABLE cellspacing="0" cellpadding="0" width="145" align="center">
+		<TR><TD class="left_menu1_out" onMouseOver="this.className='left_menu1_over';" onClick="showsubmenu(3)" onMouseOut="this.className='left_menu1_out';" background="images/user.gif" ><DIV class="div_leftmenu1">用户信息维护</DIV></TD></TR>
+		<TR>
+			<TD id="submenu3" style="DISPLAY:" class="left_menu2">
+				<TABLE cellspacing="0" cellpadding="0" width="135" align="center">
+				   <TR>
+						<TD class="left_menu2_td"><a target="main" href="InputUserData.aspx">创建用户</a></TD>
+					</TR>
+					<TR>
+						<TD class="left_menu2_td"><a target="main" href="userManage.aspx">用户管理</a></TD>
+					</TR>
+					
+					<TR>
+						<TD class="left_menu2_td"><a target="main" href="OutputUserData.aspx">用户数据导出</a></TD>
+					</TR>
+					<TR>
+						<TD class="left_menu2_td"><a target="main" href="WelEdit.aspx">欢迎信息维护</a></TD>
+					</TR>
+				</TABLE>
+			</TD>
+		</TR>
+	</TABLE>
+	<BR>
+	<TABLE cellspacing="0" cellpadding="0" width="145" align="center">
+		<TR><TD class="left_menu1_out" onMouseOver="this.className='left_menu1_over';" onClick="showsubmenu(4)" onMouseOut="this.className='left_menu1_out';" background="images/infomation.gif"><DIV class="div_leftmenu1">基本功能介绍</DIV></TD></TR>
+		<TR>
+			<TD id="submenu4" style="DISPLAY:" class="left_menu2">
+				<TABLE cellspacing="0" cellpadding="0" width="135" align="center">
+					<TR>
+						<TD class="left_menu2_td"><a target="main" href="introduction.aspx">功能简介</a></TD>
+					</TR>
+				</TABLE>
+			</TD>
+		</TR>
+	</TABLE>
+</BODY>
+</HTML>
+<script>
+function showsubmenu(sid)
+{
+	whichEl = eval("submenu" + sid);
+	if (whichEl.style.display == "none")
+	{
+		eval("submenu" + sid + ".style.display=\"\";");
+	}
+	else
+	{
+		eval("submenu" + sid + ".style.display=\"none\";");
+	}
+}
+</script>
+

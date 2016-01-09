@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 20
+/svn/ows/!svn/ver/20
+END
+config.ini
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/ows/!svn/ver/8/config.ini
+END
+init.c
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/ows/!svn/ver/15/init.c
+END
+poll.c
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/ows/!svn/ver/21/poll.c
+END
+thread.c
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/ows/!svn/ver/21/thread.c
+END
+parse.c
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/ows/!svn/ver/13/parse.c
+END
+favicon.ico
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/ows/!svn/ver/1/favicon.ico
+END
+nohup.out
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/ows/!svn/ver/21/nohup.out
+END
+ccl
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/svn/ows/!svn/ver/16/ccl
+END
+log.c
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/ows/!svn/ver/11/log.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/ows/!svn/ver/21/main.c
+END
+db.c
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/svn/ows/!svn/ver/1/db.c
+END
+conf.c
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/ows/!svn/ver/11/conf.c
+END
+ws.log
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/ows/!svn/ver/18/ws.log
+END
+error.c
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/ows/!svn/ver/1/error.c
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/ows/!svn/ver/4/index.html
+END
+write.c
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/ows/!svn/ver/21/write.c
+END
+print.c
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/ows/!svn/ver/15/print.c
+END
+common.h
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/ows/!svn/ver/21/common.h
+END
